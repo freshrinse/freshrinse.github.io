@@ -19,6 +19,24 @@ body {
   text-align: center;
 }
 
+.bg {
+	margin-top:140px;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	
+	background: rgb(254,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(160,216,239,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,255,255,1)), color-stop(100%,rgba(160,216,239,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(160,216,239,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(160,216,239,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(160,216,239,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(160,216,239,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+	
+	z-index: -99;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
@@ -64,13 +82,24 @@ ul.posts span {
   font-size: 115%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  height: 1000px;
+  margin: 10px auto 30px;
   line-height: 1.5em;
+
+  background: #FFF;
+  padding: 0 10px;
 }
+
+
+/* header */
 
 .site .header a {
   font-weight: bold;
   text-decoration: none;
+}
+
+.site .header img {
+	width: 180px;
 }
 
 .site .header h1.title {
@@ -87,7 +116,7 @@ ul.posts span {
 }
 
 .site .header a.extra {
-  color: #aaa;
+  color: #666;
   margin-left: 1em;
 }
 
@@ -99,10 +128,22 @@ ul.posts span {
   color: #aaa;
 }
 
+/* content */
+
+.spotlight-img {
+	margin-top: 20px;
+	width: 42em;
+	
+	box-shadow: 2px 2px 5px #666;
+	border-radius:5px;
+}
+
+/* footer */
+
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 1px solid #666;
   margin-top: 2em;
   overflow: hidden;
 }
