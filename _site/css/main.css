@@ -141,11 +141,10 @@ ul.posts span {
 .spotlight-container {
 	margin-top:15px;
 }
-
 .spotlight {
 	display: inline-table;
 	margin-right:10px;
-	width:206px;
+	width:200px;
 }
 .spotlight:last-child {
 	margin-right: 0;
