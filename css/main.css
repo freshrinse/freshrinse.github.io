@@ -81,7 +81,7 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 628px;
   height: 1000px;
   margin: 10px auto 30px;
   line-height: 1.5em;
@@ -136,6 +136,18 @@ ul.posts span {
 	
 	box-shadow: 2px 2px 5px #666;
 	border-radius:5px;
+}
+
+.spotlight-container {
+	margin-top:15px;
+}
+.spotlight {
+	display: inline-table;
+	margin-right:10px;
+	width:200px;
+}
+.spotlight:last-child {
+	margin-right: 0;
 }
 
 /* footer */
